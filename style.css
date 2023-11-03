@@ -1,0 +1,40 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+  #app {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 145px;
+    background-color: white;
+    object-fit: contain;
+    background-size: contain;
+  }
+
+  #counter {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    color: black;
+  }
+
+  #explanation {
+    position: absolute;
+    top: 240px;
+    left: 10px;
+    color: black;
+  }
+
+  .cardDisplay {
+    position: absolute;
+    top: 10px;
+    width: 100px;
+    height: 145px;
+    background-color: white;
+    object-fit: contain;
+    background-size: contain;
+  }
